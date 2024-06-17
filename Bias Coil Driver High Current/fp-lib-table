@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "TE 3P Terminal Block")(type "KiCad")(uri "/Users/maartendehaan/Desktop/Weiss/KiCAD/KiCAD Libraries/ul_282837-3/KiCAD/2022-05-23_16-49-20/footprints.pretty")(options "")(descr ""))
+  (lib (name "OPA 549T")(type "KiCad")(uri "/Users/maartendehaan/Desktop/Weiss/KiCAD/KiCAD Libraries/ul_OPA549T/KiCAD/2022-05-20_18-50-27/footprints.pretty")(options "")(descr ""))
+)

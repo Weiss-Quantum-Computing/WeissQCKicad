@@ -1,0 +1,27 @@
+"Source:","/Users/maartendehaan/Desktop/Weiss/KiCAD/Bias Coil Driver High Current/Bias Coil Driver High Current.kicad_sch"
+"Date:","Monday, May 23, 2022 at 02:50:12 PM"
+"Tool:","Eeschema (6.0.1-0)"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","7"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","C1","10 µF","Device:C","Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm","~"
+"","","C2","0.1 µF","Device:C","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"","","C3","0.1 µF","Device:C","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"","","C4","10 µF","Device:C","Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm","~"
+"","","J1","1x03 Terminal Block","Connector:Conn_01x03_Male","TE 3P Terminal Block:282837-3","~"
+"","","J2","KK 254 1x04 Male","Connector:Conn_01x04_Male","Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical","~"
+"","","U1","OPA549T","Amplifier_Operational:OPA549T","OPA 549T:OPA549T","https://www.ti.com/lit/ds/symlink/opa549.pdf"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","2","C1, C4","10 µF","Device:C","Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm","~"
+"2","2","C2, C3","0.1 µF","Device:C","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","~"
+"3","1","J1","1x03 Terminal Block","Connector:Conn_01x03_Male","TE 3P Terminal Block:282837-3","~"
+"4","1","J2","KK 254 1x04 Male","Connector:Conn_01x04_Male","Connector_Molex:Molex_KK-254_AE-6410-04A_1x04_P2.54mm_Vertical","~"
+"5","1","U1","OPA549T","Amplifier_Operational:OPA549T","OPA 549T:OPA549T","https://www.ti.com/lit/ds/symlink/opa549.pdf"
