@@ -1,0 +1,891 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/maartendehaan/Desktop/Weiss/KiCAD/Summing Circuit V5/Summing Circuit V5.kicad_sch</source>
+    <date>Monday, September 05, 2022 at 10:28:05 AM</date>
+    <tool>Eeschema (6.0.1-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Bias Coil Driver Signal Summing</title>
+        <company>PSU Physics Weiss Group</company>
+        <rev>004</rev>
+        <date>2022-05-18</date>
+        <source>Summing Circuit V5.kicad_sch</source>
+        <comment number="1" value="Maarten de Haan"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>17d3d8ee-a4a6-4d89-b880-75c77dfe8e6e</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5689012e-59d6-4d41-bd04-70f34cc33409</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>74190d33-5854-4f0b-a6de-afa6731c4822</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cde7521-2e0c-4708-886a-371333cc7eda</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5d9686e-eae2-4dae-896d-3c1759eb0149</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>278ab47d-6d33-4b28-9928-5a026f29640d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9afc3b76-3321-471f-b762-b9fccb29c210</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a27200d-4502-4fcb-aea7-8471411c5171</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>30nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f14a57bf-7341-40f9-af74-347d093bc063</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35caedee-2650-4730-a025-697bf51282f7</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc844e3f-47fe-444e-9e60-17a1036ddf29</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93efc78f-109a-49c5-93d8-87c139c2b039</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59eafc9c-f3e2-41e5-9497-3b11c69b25c0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7f5ec96-5772-4e04-a75f-d6c64e2b0c02</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b450638-397e-4c66-a0cd-e43792d5894a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2eb76c0-af1c-42cf-96da-aa7c53e53ff2</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eff4743-853d-419a-8ace-3e84742aa455</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9efb7d10-24be-49a6-beff-9d89fc8f6569</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>KK 254 01x02 Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fe468490-86bb-4932-89ea-0e6d89bfbae1</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Power</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf6a1f7b-19ea-4958-8d3b-9d5be849b63e</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Interboard</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e22d95a1-cf42-4652-ae68-374fda22460e</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Potentiometer</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="" part="Conn_01x03_Male_1" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>39e47119-72f0-47a4-8ce6-566f5d8ae7f1</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn to Box</value>
+      <footprint>TestPoint:TestPoint_Pad_2.0x2.0mm</footprint>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>060567e7-da76-443e-9727-ab1ff49da7ad</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>KK 254 01x02 Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5b8d8c02-842a-4eb6-8cb8-9caa9621fb1a</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>KK 254 01x02 Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e01fd89-23ed-45c8-b139-0c613ce0f470</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>KK 254 01x02 Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50220fae-0649-4a13-8def-abc87180109e</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>KK 254 01x02 Male</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c874facd-fa8d-469b-8f52-9fcf309fc6dd</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>75f7b414-b452-49dd-9099-eb23ab83c7ba</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6e855de1-8aef-409a-93ff-258f95d13406</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>3.9kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cae029c-545a-44c0-82fc-fd2e13237755</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100Ω</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9558b2bf-165f-48a0-af1f-339ff6f59ca8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100Ω</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30017065-383c-4771-bfc4-b1f1532330a5</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>47kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2187187b-f292-4e04-9e08-6c683b15376d</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>50kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3af312e-c877-41ec-9e3e-35430dcc7ff8</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>50kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b015281-9d3c-405a-aaa2-b98bf8e638ac</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>20kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b14f09fb-6f4d-4d6c-a980-fdf74ca53385</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>3.9kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32f51a70-bebe-4354-b507-aa8bf0a1f7e5</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100Ω</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45a60ff1-71f7-4ca5-bce7-dd7eb3033543</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>50kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c698887-21f1-447e-a45e-a8007747a641</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>AD586</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf</datasheet>
+      <libsource lib="Reference_Voltage" part="AD586" description="High Precision, 5V Reference, DIP-8, SO-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebdfa63a-9362-46f0-a3a8-bfb51e60452f</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>AMP03GSZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</datasheet>
+      <libsource lib="" part="AMP03GSZ_1" description="Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>50529c4b-c44f-40da-a964-750aa127697f</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>AMP03GSZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</datasheet>
+      <libsource lib="" part="AMP03GSZ_2" description="Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4209306e-9c7b-4530-830c-10bab943a921</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>AMP03GSZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="AMP03GSZ" description="Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5d71d56-0001-4576-bc55-3036f47d22e9</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>OP177FSZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/op177.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="OP177FSZ" description="Ultraprecision Operational Amplifier, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80feb880-5fa0-4542-9d50-4961e01eb1b9</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>AMP03GSZ</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="AMP03GSZ" description="Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e6f540a9-5900-40e8-9e89-70adef2ee749</tstamps>
+    </comp>
+    <comp ref="W1">
+      <value>0Ω</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Summing Circuit V5.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>49392c6b-c19d-4b09-83b3-4ac82975509f</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="AMP03GSZ_1">
+      <description>Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO*99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U2</field>
+        <field name="Value">AMP03GSZ</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="AMP03GSZ_2">
+      <description>Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO*99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U3</field>
+        <field name="Value">AMP03GSZ</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Conn_01x03_Male_1">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male_1</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="AMP03GSZ">
+      <description>Precision, Unity-Gain Differential Amplifier DIP-8/SOIC-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO*99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">AMP03GSZ</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/amp03.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="REF" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="OP177FSZ">
+      <description>Ultraprecision Operational Amplifier, DIP-8/SOIC-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/op177.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>TO*99*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OP177FSZ</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/op177.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VOS" type="input"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="" type="output"/>
+        <pin num="7" name="V+" type="power_in"/>
+        <pin num="8" name="VOS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J5</field>
+        <field name="Value">Power</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="power_out"/>
+        <pin num="2" name="Pin_2" type="power_out"/>
+        <pin num="3" name="Pin_3" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Reference_Voltage" part="AD586">
+      <description>High Precision, 5V Reference, DIP-8, SO-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD586</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/AD586.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="V+" type="power_in"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="TRIM" type="input"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="NR" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Reference_Voltage">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Reference_Voltage.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+15V">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="power_out"/>
+      <node ref="U1" pin="2" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U5" pin="7" pinfunction="V+" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="2" name="-15V">
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="power_out"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U6" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="3" name="/From Coil">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="power_out"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="/From Shunt Ground">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="power_out"/>
+      <node ref="U5" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="5" name="/GND_AC Correction">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="6" name="/GND_Coarse">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="W1" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="/GND_DC Correction">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="8" name="/GND_Fine Tuning">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="9" name="/SIG_AC Correction">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="10" name="/SIG_Coarse">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="11" name="/SIG_DC Correction">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="12" name="/SIG_Fine Tuning">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="13" name="/To OPA549">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="power_out"/>
+      <node ref="U5" pin="6" pintype="output"/>
+    </net>
+    <net code="14" name="/Vin_RV">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="15" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="power_out"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="REF" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="REF" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="REF" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="REF" pintype="input"/>
+      <node ref="W1" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="NR" pintype="input"/>
+    </net>
+    <net code="17" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SENSE" pintype="input"/>
+      <node ref="U2" pin="6" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SENSE" pintype="input"/>
+      <node ref="U3" pin="6" pintype="output"/>
+    </net>
+    <net code="21" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="SENSE" pintype="input"/>
+      <node ref="U4" pin="6" pintype="output"/>
+    </net>
+    <net code="23" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SENSE" pintype="input"/>
+      <node ref="U6" pin="6" pintype="output"/>
+    </net>
+    <net code="25" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="TRIM" pintype="input+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U4-Pad8)">
+      <node ref="U4" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U5-Pad1)">
+      <node ref="U5" pin="1" pinfunction="VOS" pintype="input+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(U5-Pad8)">
+      <node ref="U5" pin="8" pinfunction="VOS" pintype="input+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(U6-Pad8)">
+      <node ref="U6" pin="8" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
