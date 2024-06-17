@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/maartendehaan/Desktop/QC Research/KiCAD/Supertime External Trigger/Supertime External Trigger.kicad_sch</source>
+    <date>Friday, April 12, 2024 at 06:10:43 AM</date>
+    <tool>Eeschema (6.0.1-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Supertime External Trigger.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>20nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d77f4bf-9980-4f85-8524-a9db799d671c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f73bc7a-5807-4e20-b765-f21d18bc6c66</tstamps>
+    </comp>
+    <comp ref="CP1">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edbbe9b4-3185-4887-b296-9e6cbd483bd6</tstamps>
+    </comp>
+    <comp ref="CP2">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e8c60d25-fe9c-4abd-bc4b-8d821238438e</tstamps>
+    </comp>
+    <comp ref="CP3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c0c9b912-2f58-4e20-adf1-258ab50d1d69</tstamps>
+    </comp>
+    <comp ref="CP4">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2a8d09fd-b1fb-4648-ad89-80b0e564e899</tstamps>
+    </comp>
+    <comp ref="CP5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ced93fc4-0d56-4aa8-9668-162db9590268</tstamps>
+    </comp>
+    <comp ref="CP6">
+      <value>1µF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>73163016-b1d0-454d-a762-3a1eb903e951</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Power</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>945adcd8-9a29-4e48-b714-5adf7e11bddf</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>60 Hz Trigger</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5d99f269-d4f0-4809-b0eb-f938bf15e92c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>60 Hz Output</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be4fa129-72c3-44cd-91db-05d306c0c9e7</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>1 MHz Clock</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33fbf813-2f28-4226-8bb9-b334d6dc3ffb</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>1 MHz Output</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9afac2b1-5275-43c0-9eb9-33d86ae00304</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Supertime Resync</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e19c4d19-ef2b-4d36-b746-ef5c9be62bb8</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>FPGA Input</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ddaf8eeb-d8bd-4c6d-85ba-6d65a97d115a</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Supertime Sorting</value>
+      <footprint>Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2f181f13-8c75-4864-9f6a-51cdabea7633</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>5kΩ</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8afda359-12c1-4165-ab39-452e1b27ef96</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>CD74HCT123M96</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="CD74HCT123E" part="CD74HCT123E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>373c0b53-aeed-4504-964d-3cc22b378cef</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>CD74HCT32M96</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <libsource lib="CD74HCT32E" part="CD74HCT32E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9ed3b127-7801-43b5-b137-11df8e643ab2</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>CD74HCT08M96</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <libsource lib="CD74HCT08E" part="CD74HCT08E" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Supertime External Trigger.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eb87bb09-41ca-44dd-b3d5-fb951e30ac44</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CD74HCT08E" part="CD74HCT08E">
+      <footprints>
+        <fp>N14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HCT08E</field>
+        <field name="Footprint">N14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1B" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="2A" type="input"/>
+        <pin num="5" name="2B" type="input"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3Y" type="output"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3B" type="input"/>
+        <pin num="11" name="4Y" type="output"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="4B" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD74HCT123E" part="CD74HCT123E">
+      <footprints>
+        <fp>N16</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HCT123E</field>
+        <field name="Footprint">N16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="*1A" type="input"/>
+        <pin num="2" name="1B" type="input"/>
+        <pin num="3" name="*1R" type="input"/>
+        <pin num="4" name="*1Q" type="output"/>
+        <pin num="5" name="2Q" type="output"/>
+        <pin num="6" name="2CX" type="unspecified"/>
+        <pin num="7" name="2RXCX" type="unspecified"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="*2A" type="input"/>
+        <pin num="10" name="2B" type="input"/>
+        <pin num="11" name="*2R" type="input"/>
+        <pin num="12" name="*2Q" type="output"/>
+        <pin num="13" name="1Q" type="output"/>
+        <pin num="14" name="1CX" type="unspecified"/>
+        <pin num="15" name="1RXCX" type="unspecified"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="CD74HCT32E" part="CD74HCT32E">
+      <footprints>
+        <fp>N14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CD74HCT32E</field>
+        <field name="Footprint">N14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="1B" type="input"/>
+        <pin num="3" name="1Y" type="output"/>
+        <pin num="4" name="2A" type="input"/>
+        <pin num="5" name="2B" type="input"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="3Y" type="output"/>
+        <pin num="9" name="3A" type="input"/>
+        <pin num="10" name="3B" type="input"/>
+        <pin num="11" name="4Y" type="output"/>
+        <pin num="12" name="4A" type="input"/>
+        <pin num="13" name="4B" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CD74HCT08E">
+      <uri>/Users/maartendehaan/Desktop/QC Research/KiCAD/KiCAD Libraries/ul_CD74HCT08E/KiCAD/2022-01-24_23-56-20/2022-01-24_23-56-20.kicad_sym</uri>
+    </library>
+    <library logical="CD74HCT123E">
+      <uri>/Users/maartendehaan/Desktop/QC Research/KiCAD/KiCAD Libraries/ul_CD74HCT123E/KiCAD/2022-02-14_20-02-47/2022-02-14_20-02-47.lib</uri>
+    </library>
+    <library logical="CD74HCT32E">
+      <uri>/Users/maartendehaan/Desktop/QC Research/KiCAD/KiCAD Libraries/ul_CD74HCT32E/KiCAD/2022-02-15_19-45-02/2022-02-15_19-45-02.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="CP1" pin="1" pintype="passive"/>
+      <node ref="CP2" pin="1" pintype="passive"/>
+      <node ref="CP3" pin="1" pintype="passive"/>
+      <node ref="CP4" pin="1" pintype="passive"/>
+      <node ref="CP5" pin="1" pintype="passive"/>
+      <node ref="CP6" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="*2R" pintype="input"/>
+      <node ref="U1" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="14" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/(ST Resync||60 Hz)&amp;&amp;1 MHz">
+      <node ref="U3" pin="3" pinfunction="1Y" pintype="output"/>
+      <node ref="U3" pin="4" pinfunction="2A" pintype="input"/>
+    </net>
+    <net code="3" name="/1 MHz Clock">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="1B" pintype="input"/>
+    </net>
+    <net code="4" name="/1 MHz Output">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="2Y" pintype="output"/>
+    </net>
+    <net code="5" name="/60 Hz Output">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="2Q" pintype="output"/>
+      <node ref="U2" pin="5" pinfunction="2B" pintype="input"/>
+    </net>
+    <net code="6" name="/60 Hz Trigger">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="2B" pintype="input"/>
+    </net>
+    <net code="7" name="/FPGA input">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="8" name="/ST Resync||60 Hz">
+      <node ref="U2" pin="6" pinfunction="2Y" pintype="output"/>
+      <node ref="U3" pin="1" pinfunction="1A" pintype="input"/>
+    </net>
+    <net code="9" name="/ST Sort||FPGA input">
+      <node ref="U2" pin="3" pinfunction="1Y" pintype="output"/>
+      <node ref="U3" pin="5" pinfunction="2B" pintype="input"/>
+    </net>
+    <net code="10" name="/Supertime Resync">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="2A" pintype="input"/>
+    </net>
+    <net code="11" name="/Supertime Sorting">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="1B" pintype="input"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="CP1" pin="2" pintype="passive"/>
+      <node ref="CP2" pin="2" pintype="passive"/>
+      <node ref="CP3" pin="2" pintype="passive"/>
+      <node ref="CP4" pin="2" pintype="passive"/>
+      <node ref="CP5" pin="2" pintype="passive"/>
+      <node ref="CP6" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="*1A" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="1B" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="*1R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="*2A" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="3B" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="4A" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="4B" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="3A" pintype="input"/>
+      <node ref="U3" pin="10" pinfunction="3B" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="4A" pintype="input"/>
+      <node ref="U3" pin="13" pinfunction="4B" pintype="input"/>
+      <node ref="U3" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="3A" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="2CX" pintype="unspecified"/>
+    </net>
+    <net code="14" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="2RXCX" pintype="unspecified"/>
+    </net>
+    <net code="15" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="*1Q" pintype="output+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad12)">
+      <node ref="U1" pin="12" pinfunction="*2Q" pintype="output+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="1Q" pintype="output+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="1CX" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="1RXCX" pintype="unspecified+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U2-Pad8)">
+      <node ref="U2" pin="8" pinfunction="3Y" pintype="output+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U2-Pad11)">
+      <node ref="U2" pin="11" pinfunction="4Y" pintype="output+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U3-Pad8)">
+      <node ref="U3" pin="8" pinfunction="3Y" pintype="output+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U3-Pad11)">
+      <node ref="U3" pin="11" pinfunction="4Y" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
